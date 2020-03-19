@@ -59,9 +59,16 @@ const Bio = () => {
       <p>
         Written by <strong>{author.name}</strong> {author.summary}
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          <br />
-          You can follow me on Twitter
+        <br />
+        You can connect to me on -
+        <a href={`https://www.facebook.com/lavangna.dubey.1`}>
+          {/* <a href={`https://twitter.com/${social.twitter}`}> */}
+          Facebook
+        </a>
+        -or-
+        <a href={`https://www.instagram.com/lavangna_dubey/`}>
+          {/* <a href={`https://twitter.com/${social.twitter}`}> */}
+          Instagram
         </a>
       </p>
     </div>
